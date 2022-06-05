@@ -8,7 +8,7 @@ public class Cell_Based_Physics extends JFrame {
 	{
 		super();
 		d=this.getSize();
-		this.setSize(1900,1000);
+		this.setSize(600,600);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		FPS=fps;
 		CellHandler panel= new CellHandler(this.getSize(),cellSize,FPS);
@@ -17,7 +17,7 @@ public class Cell_Based_Physics extends JFrame {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Cell_Based_Physics cbp= new Cell_Based_Physics("Cell Based Physics Simulator",2,1000);
+		Cell_Based_Physics cbp= new Cell_Based_Physics("Test Materials",5,1000);
 	}
 
 }
